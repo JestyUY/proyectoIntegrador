@@ -4,8 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="output.css" rel="stylesheet">
 </head>
 <body>
-    
+    <nav class=" h-[50px] container flex justify-between py-8 mx-auto bg-white px-3 items-center">
+        <div class="flex items-center  space-x-2 mt-2">
+           <img class="h-[38px] " src="src/logo-verde.png" alt="Logo Flex">
+           <span class="text-[30px] font-extrabold">Flex</span>
+        </div>
+        <div class="hidden space-x-8 lg:flex">
+          <a href="#">Producto</a>
+          <a href="#">Caracteristicas</a>
+          <a href="#">Precios</a>
+          
+        </div>
+        <div class="hidden space-x-8 lg:flex ">
+            <a href="#">Ingresar</a>
+            <a href="#">Registrarse</a>
+          </div>
+        <button type="button" class="flex lg:hidden"  >
+          <div class="space-y-2">
+            <span class="block w-8 h-0.5 bg-gray-600 animate-pulse"></span>
+            <span class="block w-8 h-0.5 bg-gray-600 animate-pulse"></span>
+            <span class="block w-8 h-0.5 bg-gray-600 animate-pulse"></span>
+          </div>
+        </button>
+      </nav>
+
+    <header class="lg:flex mx-">
+        <div class="grid grid-cols-3 grid-rows-6 gap-2">
+            <span class="text-white bg-green-600 rounded-xl px-2 col-span-3 w-[64px] h-6 self-end">Nuevo</span>
+            <h1 class="text-4xl font-bold text-gray-600 col-span-3 row-span-3">La plataforma para las empresas del futuro</h1>
+            <span class="col-span-3 text-gray-500">productos pensados para los negocios del proximo siglo</span>
+            <a class="bg-green-600 text-white rounded-lg p-2 col-span-1" href="">Solicitar demo</a>
+            <a class="border-gray-600 border-[1px] rounded-lg p-2 col-span-1" href="">Registrarse</a>
+        </div>
+    </header>
+
+    <main>
+        <section>
+
+        </section>
+        <section>
+
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
 </body>
 </html>
