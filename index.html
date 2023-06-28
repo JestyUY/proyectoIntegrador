@@ -14,7 +14,36 @@
            <img class="h-[38px] z-30" src="src/logo-verde.png" alt="Logo Flex">
            <span class="text-[30px] z-30 text-customDarkGrey font-extrabold">Flex</span>
         </div>
-       
+         <!-- este es el boton ingresar -->
+  
+
+  <div id="myModal" class="z-50  modal fixed w-full h-full top-0 left-0 hidden items-center justify-center">
+    <div class="modal-content bg-customDarkGrey w-[340px] h-[500px] p-6 rounded">
+      <div id="contenedor titulo" class="flex items-center flex-col relative">
+        <span id="cruz" class="close absolute top-[-20px] right-0 text-customWhite cursor-pointer text-5xl">&times;</span>
+        <img class="h-12 w-14 items-center bg-customGreen p-2 rounded-lg" src="./src/logo-blanco.png" alt="green logo">
+        <h2 class="text-2xl font-bold mb-4 text-customWhite ">Ingresa a tu cuenta</h2>
+        <p class=" text-customLightGrey">y empieza a conseguir resultados</p>
+      </div>
+      <form class=" grid grid-cols-4 grid-rows-6 [&>input]:rounded-md gap-2" action="">
+        <label class=" self-end col-span-4 text-customWhite" for="correo">Correo</label>
+        <input placeholder="tu-correo@senpaiacademy.com" class="col-span-4 pl-4"  type="text">
+        <label class=" self-end col-span-4 text-customWhite" for="contrasena">Contraseña</label>
+        <input placeholder="**********************" class="col-span-4 pl-4" type="text">
+        <div class="col-span-2 flex items-center">
+        <input class=" w-[15px] h-[15px] mr-2" type="checkbox"> 
+        <label class="text-customWhite text-sm">Recordarme</label>
+        </div>
+        
+        <a class="items-center col-span-2 self-center text-customGreen text-sm" href="">Olvide mi contraseña</a>
+        <button  class="col-span-4 font-semibold text-customWhite bg-customGreen rounded py-[8px]">Ingresar</button>
+      </form>
+      <div class="flex justify-center">
+        <span class="text-customWhite text-sm block mt-4">Aún no tienes cuenta? <a class="text-customGreen text-sm" href="">registrarse</a></span>
+      </div>
+    </div>
+  </div>
+
         <div class="block lg:hidden z-30">
           <button id="menuButton" class="flex items-center px-3 py-2 border-2 rounded text-customDarkGrey border-customGreen ">
             <svg class="fill-current h-5 w-5" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
@@ -27,7 +56,7 @@
         <li><a href=""></a>Precio</li>
       </ul>
       <div class=" lg:inline-block hidden">
-        <a class=" rounded-lg p-3  self-center text-center " href="">Ingresar</a>
+        <button id="buttonIngresar" class=" rounded-lg p-3  self-center text-center " href="">Ingresar</button>
         <a class=" bg-customGreen text-white rounded-lg py-[5px] px-[10px]  self-center text-center " href="">Registrarse</a>
       </div>
     
@@ -39,7 +68,7 @@
          <li><a class="text-customDarkGrey " href="">Producto</a></li>
          <li><a href="">Caracteristica</a></li>
          <li><a href=""></a>Precio</li>
-         <li><a class=" rounded-lg p-3  self-center text-center " href="">Ingresar</a></li>
+         <li><button id="buttonIngresarSm" class="  rounded-lg p-3  self-center text-center " href="">Ingresar</button></li>
          <li><a class=" bg-customGreen text-white rounded-lg py-[5px] px-[10px]  text-center " href="">Registrarse</a></li>
          
         </ul>
