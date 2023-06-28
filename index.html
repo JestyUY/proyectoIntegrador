@@ -110,9 +110,9 @@
       </div>
 
       <ul class="lg:flex space-x-4 hidden">
-        <li><a href="">Producto</a></li>
-        <li><a href="">Caracteristica</a></li>
-        <li><a href=""></a>Precio</li>
+        <li><a href="#producto">Producto</a></li>
+        <li><a href="#caracteristicas">Caracteristica</a></li>
+        <li><a href="#precio">Precio</a></li>
       </ul>
       <div class="lg:inline-block hidden">
         <button
@@ -136,9 +136,9 @@
         <ul
           class="bg-customWhite flex flex-col content-center items-center space-y-10 justify-center h-full [&>li]:text-xl [&>li]:font-bold"
         >
-          <li><a class="text-customDarkGrey" href="">Producto</a></li>
-          <li><a href="">Caracteristica</a></li>
-          <li><a href=""></a>Precio</li>
+          <li><a class="text-customDarkGrey" href="#producto">Producto</a></li>
+          <li><a href="#caracteristicas">Caracteristica</a></li>
+          <li><a href="#precio">Precio</a></li>
           <li>
             <button
               id="buttonIngresarSm"
@@ -159,7 +159,10 @@
       </div>
     </nav>
 
-    <header class="lg:flex w-[90%] max-w-[1440px] mx-auto justify-evenly mt-20">
+    <header
+      id="producto"
+      class="lg:flex w-[90%] max-w-[1440px] mx-auto justify-evenly mt-20"
+    >
       <div class="grid grid-cols-8 grid-rows-6 gap-2 lg:w-[45%] lg:gap-4">
         <span
           class="text-white bg-customGreen rounded-xl px-2 col-span-8 w-[64px] h-6 self-end"
@@ -486,6 +489,7 @@
 
     <main class="lg:mt-[170px]">
       <section
+        id="caracteristicas"
         class="max-w-[1440px] grid grid-cols-1 lg:grid-cols-3 gap-10 py-4 mx-auto lg:w-[90%] [&>div]:w-[280px] [&>div]:space-y-3 [&>div>span]:font-semibold [&>div>h3]:text-2xl justify-items-center"
       >
         <div class="col-span-1 lg:col-span-1 flex items-center flex-col">
@@ -551,7 +555,7 @@
         </div>
       </section>
 
-      <section class="w-[90%] mx-auto max-w-[1440px]">
+      <section id="precio" class="w-[90%] mx-auto max-w-[1440px]">
         <header class="w-[90%] mx-auto">
           <h2 class="text-3xl font-bold text-customDarkGrey pt-12">
             Precios flexibles que escalan contigo
