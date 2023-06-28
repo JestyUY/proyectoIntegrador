@@ -6,6 +6,7 @@
     <title>Flex</title>
     <link href="output.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/d07e78fd84.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav class="  relative h-[50px] w-[100%] container flex justify-between py-8 mx-auto bg-white px-3 items-center">
@@ -15,7 +16,7 @@
         </div>
        
         <div class="block lg:hidden z-30">
-          <button id="menuButton" class="flex items-center px-3 py-2 border-2 rounded text-customDarkGrey border-customGreen  ">
+          <button id="menuButton" class="flex items-center px-3 py-2 border-2 rounded text-customDarkGrey border-customGreen ">
             <svg class="fill-current h-5 w-5" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
           </button>
         </div>
@@ -30,7 +31,7 @@
         <a class=" bg-customGreen text-white rounded-lg py-[5px] px-[10px]  self-center text-center " href="">Registrarse</a>
       </div>
     
-     <div  id="listaMenu" class="w-[100%] z-20 absolute top-0 left-0 h-[500px] hidden">
+     <div  id="listaMenu" class="w-[100%] z-20 absolute top-0 left-0 h-[500px] hidden ">
 
        
        
@@ -49,14 +50,14 @@
 
     </nav>
 
-    <header class="lg:flex w-[90%] mx-auto justify-evenly mt-10">
+    <header class="lg:flex w-[90%] mx-auto justify-evenly mt-20">
 
         <div class="grid grid-cols-8 grid-rows-6 gap-2 lg:w-[45%] lg:gap-4">
             <span class="text-white bg-customGreen rounded-xl px-2 col-span-8 w-[64px] h-6 self-end">Nuevo</span>
-            <h1 class="text-4xl font-bold text-customDarkGrey col-span-8 row-span-2">La plataforma para las empresas del futuro</h1>
-            <span class="col-span-8 text-customLightGrey">productos pensados para los negocios del proximo siglo</span>
-            <a class=" bg-customGreen text-white rounded-lg p-3 col-span-3 self-center text-center lg:w-[165px] h-[50px]" href="">Solicitar demo</a>
-            <a class=" border-customLightGrey text-customDarkGrey border-[1px] rounded-lg p-3 col-span-3 self-center text-center lg:w-[165px] h-[50px] " href="">Registrarse</a>
+            <h1 class="text-4xl font-bold text-customDarkGrey col-span-8 row-span-2 ">La plataforma para las empresas del futuro</h1>
+            <span class="col-span-8 text-customLightGrey md:text-center">productos pensados para los negocios del proximo siglo</span>
+            <a class="   bg-customGreen text-white rounded-lg p-3 col-span-3 xl:col-span-2 lg:ml-0 lg:col-start-1 md:col-start-2  md:ml-12 self-center text-center lg:w-[165px] w-[130px] h-[50px]" href="">Solicitar demo</a>
+            <a class="   border-customLightGrey  text-customDarkGrey border-[1px] rounded-lg p-3 xl: col-span-3 self-center text-center  xl:ml-10 w-[130px] lg:w-[165px] ml-2 h-[50px] " href="">Registrarse</a>
         
         </div>
         
@@ -206,87 +207,87 @@
             prueba de 7 días en todos nuestros planes.
           </h3>
         </header>
-        <div class="cards flex flex-wrap gap-3.5 w-[90%] mx-auto justify-center ">
-          <div class=" w-[350px] h-[475px] flex flex-col justify-between alig items-center rounded-md bg-gray-300 p-8">
-            <span class=" text-[10px] text-green-600 ">PRECIO</span>
-            <span class="text-green-600 text-[18px] ">Plan básico</span>
-            <span class="text-gray-700 text-[26px]"
-              ><sup>$</sup><span class="bigger text-[32px]">10 </span> /mes</span
+        <div class="cards flex flex-wrap gap-3.5 w-[90%]  mx-auto justify-center ">
+          <div class=" w-[350px] h-[475px] flex flex-col justify-between alig items-center rounded-md bg-customWhite p-8">
+            <span class=" text-[10px] text-customGreen  bg-green-100 rounded-2xl px-2  ">PRECIO</span>
+            <span class="text-customGreen text-[18px] font-semibold text-2xl ">Plan básico</span>
+            <span class="text-customDarkGrey text-[26px]"
+              ><sup>$</sup><span class="text-[35px] font-semibold">10 </span> /mes</span
             >
-            <span class="factura text-[18px]">Facturando anualmente</span>
-            <ul class="self-start text-base text-gray-500 leading-loose m-0 p-0 ">
+            <span class="text-customLightGrey text-[18px] font-semibold">Facturando anualmente</span>
+            <ul class="self-start text-base text-gray-500 leading-loose m-0 p-0 [&>li]:font-medium [&>li>i]:fill-customGreen [&>li>i]:text-customGreen [&>li>i]:mr-[10px] ">
               <li>
-                <i class="fa-solid fa-circle-check mr-2.5" style="color: #2ad167"></i
+                <i class="fa-solid fa-circle-check " ></i
                 >1GB de almacenamiento
               </li>
               <li>
-                <i class="fa-solid fa-circle-check" style="color: #2ad167"></i
+                <i class="fa-solid fa-circle-check"></i
                 >Dashboard completo
               </li>
               <li>
-                <i class="fa-solid fa-circle-check" style="color: #2ad167"></i
+                <i class="fa-solid fa-circle-check"></i
                 >Asistencia por correo
               </li>
               <li>
-                <i class="fa-solid fa-circle-check" style="color: #2ad167"></i
+                <i class="fa-solid fa-circle-check" ></i
                 >Hasta 10 miembros
               </li>
             </ul>
-            <button class="w-full h-[2.5em] border-none text-white bg-green-600 rounded-md" type="submit">Solicitar demo</button>
+            <button class="w-full h-[2.5em] border-none text-white bg-customGreen rounded-md" type="submit">Solicitar demo</button>
           </div>
-          <div class="w-[350px] h-[475px] flex flex-col justify-between alig items-center rounded-md bg-gray-300 p-8">
-            <span class=" text-[10px] text-green-600 ">PRECIO</span>
-            <span class="text-green-600 text-[18px]">Plan freelancer</span>
-            <span class="text-gray-700 text-[26px]"
-              ><sup>$</sup><span class="bigger">99 </span> /mes</span
+          <div class=" w-[350px] h-[475px] flex flex-col justify-between alig items-center rounded-md bg-customWhite p-8">
+            <span class="  text-[10px] text-customGreen  bg-green-100 rounded-2xl px-2  ">PRECIO</span>
+            <span class="text-customGreen text-[18px] font-semibold text-2xl ">Plan freelancer</span>
+            <span class="text-customDarkGrey text-[26px]"
+              ><sup>$</sup><span class="text-[35px] font-semibold">99 </span> /mes</span
             >
-            <span class="factura">Facturando anualmente</span>
-            <ul class="self-start text-base text-gray-500 leading-loose m-0 p-0">
+            <span class="text-customLightGrey text-[18px] font-semibold">Facturando anualmente</span>
+            <ul class="self-start text-base text-gray-500 leading-loose m-0 p-0 [&>li]:font-medium  [&>li>i]:fill-customGreen [&>li>i]:text-customGreen [&>li>i]:mr-[10px]">
               <li>
-                <i class="fa-solid fa-circle-check" style="color: #2ad167"></i
+                <i class="fa-solid fa-circle-check" ></i
                 >Caracterísitcas básicas
               </li>
               <li>
-                <i class="fa-solid fa-circle-check" style="color: #2ad167"></i
+                <i class="fa-solid fa-circle-check" ></i
                 >Asistencia preferencial
               </li>
               <li>
-                <i class="fa-solid fa-circle-check" style="color: #2ad167"></i
+                <i class="fa-solid fa-circle-check" ></i
                 >100GB de almacenamiento
               </li>
               <li>
-                <i class="fa-solid fa-circle-check" style="color: #2ad167"></i
+                <i class="fa-solid fa-circle-check" ></i
                 >Hasta 100 miembros
               </li>
             </ul>
-            <button class="w-full h-[2.5em] border-none text-white bg-green-600 rounded-md" type="submit">Solicitar demo</button>
+            <button class="w-full h-[2.5em] border-none text-white bg-customGreen rounded-md" type="submit">Solicitar demo</button>
           </div>
-          <div class="w-[350px] h-[475px] flex flex-col justify-between alig items-center rounded-md bg-gray-300 p-8">
-            <span class=" text-[10px] text-green-600 ">PRECIO</span>
-            <span class="text-green-600 text-[18px]">Plan empresas</span>
-            <span class="text-gray-700 text-[26px]"
-              ><sup>$</sup><span class="bigger">799 </span> /mes</span
+          <div class=" w-[350px] h-[475px] flex flex-col justify-between alig items-center rounded-md bg-customWhite p-8">
+            <span class=" text-[10px] text-customGreen  bg-green-100 rounded-2xl px-2  ">PRECIO</span>
+            <span class="text-customGreen text-[18px] font-semibold text-2xl ">Plan empresas</span>
+            <span class="text-customDarkGrey text-[26px]"
+              ><sup>$</sup><span class="text-[35px] font-semibold">799 </span> /mes</span
             >
-            <span class="factura">Facturando anualmente</span>
-            <ul class="self-start text-base text-gray-500 leading-loose m-0 p-0">
+            <span class="text-customLightGrey text-[18px] font-semibold">Facturando anualmente</span>
+            <ul class="self-start text-base text-gray-500 leading-loose m-0 p-0 [&>li]:font-medium  [&>li>i]:fill-customGreen [&>li>i]:text-customGreen [&>li>i]:mr-[10px]">
               <li>
-                <i class="fa-solid fa-circle-check" style="color: #2ad167"></i
+                <i class="fa-solid fa-circle-check" ></i
                 >Características freelancer
               </li>
               <li>
-                <i class="fa-solid fa-circle-check" style="color: #2ad167"></i
+                <i class="fa-solid fa-circle-check" ></i
                 >1TB de almacenamiento
               </li>
               <li>
-                <i class="fa-solid fa-circle-check" style="color: #2ad167"></i
+                <i class="fa-solid fa-circle-check" ></i
                 >Asistencia telefónica 24/7
               </li>
               <li>
-                <i class="fa-solid fa-circle-check" style="color: #2ad167"></i
+                <i class="fa-solid fa-circle-check" ></i
                 >Miembros ilimitados
               </li>
             </ul>
-            <button class="w-full h-[2.5em] border-none text-white bg-green-600  rounded-md" type="submit">Solicitar demo</button>
+            <button class="w-full h-[2.5em] border-none text-white bg-customGreen rounded-md" type="submit">Solicitar demo</button>
             
           </div>
         </div>
@@ -295,7 +296,7 @@
       
     </main>
 
-    <footer class="bg-slate-700 text-white flex flex-col justify-center items-center gap-[30px] p-[20px]">
+    <footer class="bg-customDarkGrey text-white flex flex-col justify-center items-center gap-[30px] p-[20px]">
       <div class="flex justify-center items-center gap-[10px]">
         <img
           class="h-6"
@@ -305,18 +306,18 @@
         <span class="text-[24px] font-bold">Flex</span>
       </div>
       <nav class="grid grid-cols-2 justify-center gap-x-[10px] mb-[30px] lg:flex lg:space-x-12 ">
-        <a href="" class="text-gray-400 text-[18px] ">Producto</a>
-        <a href="" class="text-gray-400 text-[18px] ">Funcionalidades</a>
-        <a href="" class="text-gray-400 text-[18px] ">Precios</a>
-        <a href="" class="text-gray-400 text-[18px] ">Recursos</a>
-        <a href="" class="text-gray-400 text-[18px] ">Carreras</a>
-        <a href="" class="text-gray-400 text-[18px] ">Ayuda</a>
-        <a href="" class="text-gray-400 text-[18px] ">Privacidad</a>
+        <a href="" class="text-customLightGrey text-[18px] ">Producto</a>
+        <a href="" class="text-customLightGrey text-[18px] ">Funcionalidades</a>
+        <a href="" class="text-customLightGrey text-[18px] ">Precios</a>
+        <a href="" class="text-customLightGrey text-[18px] ">Recursos</a>
+        <a href="" class="text-customLightGrey text-[18px] ">Carreras</a>
+        <a href="" class="text-customLightGrey text-[18px] ">Ayuda</a>
+        <a href="" class="text-customLightGrey text-[18px] ">Privacidad</a>
         <a href="" class="text-customLightGrey text-[18px] "></a>
       </nav>
-      
-      <span class="text-gray-400 text-[12px] "
-        ><i class="fa-light fa-copyright"></i>2022 Flex. Un producto ficticio de
+      <hr class=" border-gray-700 w-screen">
+      <span class="text-customLightGrey text-[12px] "
+        ><i class="fa-regular fa-copyright"></i>2022 Flex. Un producto ficticio de
         Senpai.</span
       >
     </footer>

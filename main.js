@@ -5,5 +5,6 @@ const listaMenu = document.getElementById('listaMenu');
 
 menuButton.addEventListener('click', () => {
    listaMenu.classList.toggle('hidden')
+   
 });
 
