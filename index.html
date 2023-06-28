@@ -8,8 +8,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/d07e78fd84.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <nav class="  relative h-[50px] w-[100%] container flex justify-between py-8 mx-auto bg-white px-3 items-center">
+<body >
+    <nav class="  relative h-[50px] w-[100%] flex justify-between py-8 px-10 bg-white items-center">
         <div class="flex items-center  space-x-2 mt-2 z-30">
            <img class="h-[38px] z-30" src="src/logo-verde.png" alt="Logo Flex">
            <span class="text-[30px] z-30 text-customDarkGrey font-extrabold">Flex</span>
@@ -50,12 +50,12 @@
 
     </nav>
 
-    <header class="lg:flex w-[90%] mx-auto justify-evenly mt-20">
+    <header class="lg:flex w-[90%] max-w-[1440px] mx-auto justify-evenly mt-20">
 
         <div class="grid grid-cols-8 grid-rows-6 gap-2 lg:w-[45%] lg:gap-4">
             <span class="text-white bg-customGreen rounded-xl px-2 col-span-8 w-[64px] h-6 self-end">Nuevo</span>
             <h1 class="text-4xl font-bold text-customDarkGrey col-span-8 row-span-2 ">La plataforma para las empresas del futuro</h1>
-            <span class="col-span-8 text-customLightGrey md:text-center">productos pensados para los negocios del proximo siglo</span>
+            <span class="col-span-8 text-customLightGrey md:text-center lg:text-start">productos pensados para los negocios del próximo siglo</span>
             <a class="   bg-customGreen text-white rounded-lg p-3 col-span-3 xl:col-span-2 lg:ml-0 lg:col-start-1 md:col-start-2  md:ml-12 self-center text-center lg:w-[165px] w-[130px] h-[50px]" href="">Solicitar demo</a>
             <a class="   border-customLightGrey  text-customDarkGrey border-[1px] rounded-lg p-3 xl: col-span-3 self-center text-center  xl:ml-10 w-[130px] lg:w-[165px] ml-2 h-[50px] " href="">Registrarse</a>
         
@@ -136,8 +136,9 @@
 
     </header>
 
-    <main class=" lg:mt-[170px]" >
-      <section class="grid grid-cols-1 lg:grid-cols-3 gap-10 py-4 mx-auto lg:w-[90%] [&>div]:w-[280px] [&>div]:space-y-3 [&>div>span]:font-semibold  [&>div>h3]:text-2xl  justify-items-center">
+   
+    <main class=" lg:mt-[170px]  " >
+      <section class="max-w-[1440px] grid grid-cols-1 lg:grid-cols-3 gap-10 py-4 mx-auto lg:w-[90%] [&>div]:w-[280px] [&>div]:space-y-3 [&>div>span]:font-semibold  [&>div>h3]:text-2xl  justify-items-center ">
         <div class="col-span-1 lg:col-span-1 flex items-center flex-col  ">
           <svg
             class="h-[60px] w-[60px] bg-customGreen fill-white rounded-lg text-white mx-auto p-3"
@@ -151,9 +152,9 @@
             />
           </svg>
 
-          <h3 class="font-bold text-customDarkGrey">capacitacion</h3>
+          <h3 class="font-bold text-customDarkGrey">capacitación</h3>
           <span class="text-center text-customLightGrey"
-            >asistencia y capacitacion de primer nivel</span
+            >asistencia y capacitación de primer nivel</span
           >
         </div>
 
@@ -171,9 +172,9 @@
             />
           </svg>
 
-          <h3 class="font-bold text-customDarkGrey">analiticas claras</h3>
+          <h3 class="font-bold text-customDarkGrey">analíticas claras</h3>
           <span class="text-center text-customLightGrey"
-            >disfruta de un dashboard de analitcas claras y accionables</span
+            >disfruta de un dashboard de analíticas claras y accionables</span
           >
         </div>
 
@@ -199,15 +200,15 @@
         </div>
       </section>
 
-      <section class="">
-        <header class="">
-          <h2 class="text-3xl">Precios flexibles que escalan contigo</h2>
-          <h3 class="text-base">
+      <section class=" w-[90%] mx-auto max-w-[1440px]">
+        <header class=" w-[90%] mx-auto">
+          <h2 class="text-3xl font-bold text-customDarkGrey pt-12">Precios flexibles que escalan contigo</h2>
+          <h3 class="text-base  text-customLightGrey  font-medium py-6">
             Nuestra facturación se ajusta al tamaño de tu empresa. Tiempo de
             prueba de 7 días en todos nuestros planes.
           </h3>
         </header>
-        <div class="cards flex flex-wrap gap-3.5 w-[90%]  mx-auto justify-center ">
+        <div class="cards flex flex-wrap gap-3.5 w-[90%]  mx-auto justify-between ">
           <div class=" w-[350px] h-[475px] flex flex-col justify-between alig items-center rounded-md bg-customWhite p-8">
             <span class=" text-[10px] text-customGreen  bg-green-100 rounded-2xl px-2  ">PRECIO</span>
             <span class="text-customGreen text-[18px] font-semibold text-2xl ">Plan básico</span>
@@ -296,31 +297,34 @@
       
     </main>
 
-    <footer class="bg-customDarkGrey text-white flex flex-col justify-center items-center gap-[30px] p-[20px]">
-      <div class="flex justify-center items-center gap-[10px]">
-        <img
+    <div class="bg-customDarkGrey w-screen">
+    <footer class="bg-customDarkGrey text-white flex flex-col justify-center items-center gap-[30px] p-[20px] mt-10 ">
+
+        <div class="flex justify-center items-center gap-[10px]">
+          <img
           class="h-6"
           src="src/logo-verde.png"
           alt="logo de la empresa"
-        />
-        <span class="text-[24px] font-bold">Flex</span>
-      </div>
-      <nav class="grid grid-cols-2 justify-center gap-x-[10px] mb-[30px] lg:flex lg:space-x-12 ">
-        <a href="" class="text-customLightGrey text-[18px] ">Producto</a>
-        <a href="" class="text-customLightGrey text-[18px] ">Funcionalidades</a>
-        <a href="" class="text-customLightGrey text-[18px] ">Precios</a>
-        <a href="" class="text-customLightGrey text-[18px] ">Recursos</a>
-        <a href="" class="text-customLightGrey text-[18px] ">Carreras</a>
-        <a href="" class="text-customLightGrey text-[18px] ">Ayuda</a>
-        <a href="" class="text-customLightGrey text-[18px] ">Privacidad</a>
-        <a href="" class="text-customLightGrey text-[18px] "></a>
-      </nav>
-      <hr class=" border-gray-700 w-screen">
-      <span class="text-customLightGrey text-[12px] "
+          />
+          <span class="text-[24px] font-bold">Flex</span>
+        </div>
+        <nav class="grid grid-cols-2 justify-center gap-x-[10px] mb-[30px] lg:flex lg:space-x-12 ">
+          <a href="" class="text-customLightGrey text-[18px] ">Producto</a>
+          <a href="" class="text-customLightGrey text-[18px] ">Funcionalidades</a>
+          <a href="" class="text-customLightGrey text-[18px] ">Precios</a>
+          <a href="" class="text-customLightGrey text-[18px] ">Recursos</a>
+          <a href="" class="text-customLightGrey text-[18px] ">Carreras</a>
+          <a href="" class="text-customLightGrey text-[18px] ">Ayuda</a>
+          <a href="" class="text-customLightGrey text-[18px] ">Privacidad</a>
+          <a href="" class="text-customLightGrey text-[18px] "></a>
+        </nav>
+        <hr class=" border-gray-700 w-[1440px]">
+        <span class="text-customLightGrey text-[12px] "
         ><i class="fa-regular fa-copyright"></i>2022 Flex. Un producto ficticio de
         Senpai.</span
-      >
-    </footer>
-    <script src="main.js"></script>
-</body>
+        >
+      </footer>
+    </div>
+      <script src="main.js"></script>
+    </body>
 </html>
